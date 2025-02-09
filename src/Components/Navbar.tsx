@@ -89,16 +89,27 @@ const Navbar: React.FC = () => {
                             className="absolute top-16 left-0 w-full bg-white shadow-md py-4 space-y-4"
                             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside menu
                         >
-                            {["Home", "About", "Courses", "Admission", "Gallery", "Contact"].map((item) => (
-                                <Link
-                                    key={item}
-                                    to={`/${item.toLowerCase()}`}
-                                    className="block text-center text-gray-700 py-2 hover:text-purple-600"
-                                    onClick={() => setIsOpen(false)}
-                                >
-                                    {item}
-                                </Link>
-                            ))}
+                        
+
+                            <Link to="/" className="block text-center text-gray-700 py-2 hover:text-purple-600" onClick={() => setIsOpen(false)}>
+                                Home
+                            </Link>
+                            <Link to="/about" className="block text-center text-gray-700 py-2 hover:text-purple-600" onClick={() => setIsOpen(false)}>
+                                About
+                            </Link>
+                            <Link to="/courses" className="block text-center text-gray-700 py-2 hover:text-purple-600" onClick={() => setIsOpen(false)}>
+                                Courses
+                            </Link>
+                            <Link to="/admission" className="block text-center text-gray-700 py-2 hover:text-purple-600" onClick={() => setIsOpen(false)}>
+                                Admission
+                            </Link>
+                            <Link to="/gallery" className="block text-center text-gray-700 py-2 hover:text-purple-600" onClick={() => setIsOpen(false)}>
+                                Gallery
+                            </Link>
+                            <Link to="/contact" className="block text-center text-gray-700 py-2 hover:text-purple-600" onClick={() => setIsOpen(false)}>
+                                Contact
+                            </Link>
+
                             <div className="flex justify-center items-center">
                                 <Link to="/enquire-now" onClick={() => setIsOpen(false)}>
                                     <button className="block text-center px-4 py-2 bg-red-600 text-white rounded-lg shadow-md hover:bg-red-700">
