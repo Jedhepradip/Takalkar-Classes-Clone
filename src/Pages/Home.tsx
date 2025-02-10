@@ -186,12 +186,9 @@ const Home: React.FC = () => {
     }
   ];
 
-
-
   return (
     <>
       <div className="relative w-full max-w-7xl mx-auto">
-        {/* Image Container */}
         <div className="relative h-56 md:h-[450px] overflow-hidden rounded-lg">
           {images.map((image, index) => (
             <img
@@ -202,7 +199,6 @@ const Home: React.FC = () => {
                 }`}
             />
           ))}
-
         </div>
 
         {/* Indicators */}
@@ -306,7 +302,7 @@ const Home: React.FC = () => {
         </div>
 
         {/* Cards Section */}
-        <div className="relative z-10 max-w-6xl mx-auto px-28 pb-16">
+        <div className="relative z-10 max-w-6xl mx-auto md:px-28 p-4 md:pb-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {courses.map((course, index) => (
               <div key={index} className="bg-white text-black p-0 rounded-lg shadow-lg hover:shadow-2xl transition-all h-[400px] flex flex-col items-center">
@@ -419,7 +415,7 @@ const Home: React.FC = () => {
         </p>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-5">
           {branches.map((branch, index) => (
             <div
               key={index}

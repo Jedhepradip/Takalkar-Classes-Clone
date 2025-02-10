@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
 
 
          
-            <div className='font-sans py-5 px-10 flex justify-around items-center w-full h-full flex-wrap'>
+            <div className='font-sans py-5 md:px-10 flex justify-around items-center w-full h-full flex-wrap'>
                 <div className='bg-white py-8 px-10 rounded-lg md:w-[40%] w-full mb-4 md:mb-0'>
                     <form >
                         <div className='mb-2'>
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
                     </form>
                 </div>
 
-                <div className='bg-white px-10 rounded-lg md:w-[50%] w-full mb-4 md:mb-0 py-5'>
+                <div className='bg-white md:px-10 px-3 rounded-lg md:w-[50%] w-full mb-4 md:mb-0 md:py-5'>
                     <h1 className='font-bold font-serif text-[43px] text-black py-5'>Contact To Mi</h1>
                     <div className=' h-full  '>
                         <p className='font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore nostrum totam, vel perspiciatis nihil! Dolores expedita repellat obcaecati inventore possimus recusandae sequi pariatur a fuga unde? Animi, error impedit?</p>

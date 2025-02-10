@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const images = [
   "https://takalkarclasses.com/wp-content/uploads/2023/10/AA-2062.jpg",
   "https://takalkarclasses.com/wp-content/uploads/2023/10/AA-1686.jpg",
@@ -26,8 +25,6 @@ const Gallery: React.FC = () => {
       >
         {/* Dark Overlay for Better Readability */}
         <div className="absolute inset-0 bg-black/50"></div>
-
-        {/* Content */}
         <div className="relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold">Gallery</h1>
           <p className="mt-2 text-lg text-gray-200">
@@ -38,7 +35,6 @@ const Gallery: React.FC = () => {
 
       <div className="bg-gray-100 p-8 rounded-xl shadow-lg max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-center text-black mb-6">Gallery</h1>
-
         <div className='flex justify-center items-center mb-5 gap-4'>
           <button className='bg-red-500 py-2 px-4 '>All</button>
           <button className='py-2 px-7 border border-black'>Jallosh 2022</button>
@@ -61,7 +57,6 @@ const Gallery: React.FC = () => {
           <button className='bg-red-500 py-2 px-5'>LOAD MORE</button>
         </div>
       </div>
-
     </>
   )
 }

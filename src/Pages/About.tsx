@@ -66,7 +66,7 @@ const AboutHeader: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-16">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:p-16 p-5">
         {/* Text Section */}
         <div className="flex-1 text-gray-800 space-y-4">
           <h2 className="text-3xl font-bold text-blue-700">Prof. Kedar Takalkar</h2>
