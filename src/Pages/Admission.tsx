@@ -104,7 +104,6 @@ const Admission: React.FC = () => {
           </div>
         </div>
       </div>
-
     </>
   )
 }

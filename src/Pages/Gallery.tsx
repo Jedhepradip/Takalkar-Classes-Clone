@@ -38,10 +38,9 @@ const Gallery: React.FC = () => {
         <div className='flex justify-center items-center mb-5 gap-4'>
           <button className='bg-red-500 py-2 px-4 '>All</button>
           <button className='py-2 px-7 border border-black'>Jallosh 2022</button>
-
         </div>
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
           {images.map((img, index) => (
             <div key={index} className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition duration-300">
               <img
