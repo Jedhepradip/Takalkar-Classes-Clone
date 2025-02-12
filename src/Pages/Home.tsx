@@ -47,6 +47,7 @@ const Home: React.FC = () => {
       image: "https://takalkarclasses.com/wp-content/uploads/2023/04/11th-12th-Science-PCMB.png",
       bgColor: "bg-blue-600",
     },
+    
     {
       title: "JEE, NEET, CET",
       subtitle: "Entrance Exam Preparation",
