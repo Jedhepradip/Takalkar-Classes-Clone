@@ -3,6 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { FaUsers, FaClock, FaChalkboardTeacher, FaAward, FaGraduationCap, FaTrophy } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { FaPhone } from "react-icons/fa";
+
 const images = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8oKoIwr50gy1saSLQXHY09s-EyZmftYSYw&s",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReQdWmp5nNEGXfkY17VBy3uQ17vdVemX3O-Q&s",
